@@ -627,9 +627,9 @@ footer {
       circle at 0% max(78%, 350px), #7dc989 0 20%, transparent 40.2%
     ), 
     radial-gradient(
-      circle at 0% 0%, #F18B7E 0 20%, transparent 40.2%
+      circle at 0% 0%, #7dc989 0 20%, transparent 40.2%
     ), 
-    #F18B7E ;
+    #7dc989 ;
   border-radius: 10px 0 0 10px;
 }
 
