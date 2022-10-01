@@ -194,12 +194,12 @@ nav {
 /*    transition: all 500ms ease-in-out;   */     
 }
 
-.carousel-item figure > #capa{
+.carousel-item figure > .capaCarousel{
 /*  transition: all 500ms ease-in-out;  */
   opacity: 0;
   visibility: hidden;
 }
-.carousel-item figure:hover > #capa {
+.carousel-item figure:hover > .capaCarousel {
   opacity: 3;
   visibility: visible;
 }
