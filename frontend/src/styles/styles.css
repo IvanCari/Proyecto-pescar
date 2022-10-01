@@ -223,7 +223,10 @@ filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0));
   margin: 25px auto;
   
 } */
+#sobre-nosotros{
+filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
 
+}
 .contendor-sobre-nosotros {
   margin: 0;
   padding: 5px 20px 0 20px;
