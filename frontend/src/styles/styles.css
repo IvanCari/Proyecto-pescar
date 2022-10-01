@@ -66,12 +66,12 @@ p {
 
 .texto__mediano {
   font-family: "Hind Madurai", sans-serif;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 .texto__pequeño {
   font-family: "Hind Madurai", sans-serif;
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 .texto__rosa {
@@ -112,7 +112,7 @@ nav {
 .text-style {
   color: #477d5e;
   font-family: Lexend;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 800;
   text-align: center;
 }
@@ -155,7 +155,7 @@ nav {
   .text-style {
     color: #ffffffcc;
     font-family: Lexend;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 800;
     line-height: 25px;
     letter-spacing: 0em;
@@ -182,7 +182,7 @@ nav {
 }
 .h3Carousel{
   font-family: 'Lexend';
-  font-size: 30px !important;
+  font-size: 1.875em !important;
   font-weight: 800 !important;
   color: var(--sky-blue);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.56);
@@ -236,7 +236,7 @@ filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
   margin-top: 50px;
   text-align: center;
   font-family: Lexend;
-  font-size: 25px;
+  font-size: 1.563em;
   font-weight: 800;
   color: var(--green-dark);
 }
@@ -252,7 +252,7 @@ filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
 }
 
 .texto-nosotros {
-  font-size: 14px;
+  font-size: 0.875em;
   font-family: Hind Madurai;
 }
 
@@ -272,7 +272,6 @@ filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
 /*-----------------------------------------Fin Seccion PERRITO------------------------------------------------ */
 
 /*---------------------------------------------Seccion "Donación"--------------------------------------------- */
-
 .contenedor-donacion {
   margin: 0;
   padding: 5px 20px 0 20px;
@@ -290,7 +289,7 @@ filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
 
 .texto-donacion {
   font-family: Hind Madurai;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 300;
 }
 
@@ -308,7 +307,7 @@ filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
   padding-right: 20px;
   border-radius: 15px;
   color: var(--yellow);
-  font-size: 15px;
+  font-size: 0.938em;
   font-family: Lexend;
   font-weight: 800;
   cursor: pointer;
@@ -347,7 +346,7 @@ div ul {
 li a {
   text-decoration: none;
   font-family: Hind Madurai;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.05em;
@@ -374,7 +373,7 @@ li a {
   height: 60px;
   width: 160px;
   font-family: Lexend;
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: 900;
   line-height: 37.5px;
   background: #97b8a5;
@@ -418,7 +417,7 @@ footer {
 
 @media (max-width: 420px) {
   footer .chico {
-    font-size: 14px;
+    font-size: 0.875em;
   }
   .icon-size {
     height: 20px;
@@ -429,7 +428,7 @@ footer {
     height: 26px !important;
     padding-top: 6px;
     padding-bottom: 11px;
-    font-size: 18px;
+    font-size: 1.125em;
   }
   .margen {
     margin-bottom: 21px;
@@ -451,7 +450,7 @@ footer {
   }
 
   .texto-nosotros {
-    font-size: 12px;
+    font-size: 0.75em;
     font-family: Hind Madurai;
   }
 
@@ -480,12 +479,12 @@ footer {
 
   .texto-donacion {
     font-family: Hind Madurai;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 200;
   }
 
   .boton-donacion {
-    font-size: 12px;
+    font-size: 0.75em;
   }
 }
 
@@ -515,7 +514,7 @@ footer {
   }
 
   .boton-donacion {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 }
 
@@ -535,7 +534,7 @@ footer {
   }
 
   .texto-nosotros {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 
   /*--------------------------------------------------------------*/
@@ -546,19 +545,19 @@ footer {
 
   .texto-donacion {
     margin: 0;
-    font-size: 18px;
+    font-size: 1.125em;
   }
 }
 
 @media (min-width: 1280px) {
   .texto-nosotros {
-    font-size: 22px;
+    font-size: 1.375em;
   }
 
   /*--------------------------------------------------------------*/
 
   .texto-donacion {
-    font-size: 22px;
+    font-size: 1.375em;
   }
 
   .img-donacion {
@@ -576,7 +575,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 20px;
+  font-size: 1.25em;
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -594,7 +593,6 @@ footer {
 
 /******************CONTACTO***********************/
 #contact {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -635,6 +633,9 @@ footer {
     ), 
     #7dc989 ;
   border-radius: 10px 0 0 10px;
+}
+.contact-h2{
+  filter: drop-shadow(2px 2px 3px #0003);
 }
 
 .contact-form-wrapper {
