@@ -1,6 +1,6 @@
-import printCarrito from "./printCarrito.js";
-import storage from "./storage.js";
-import totalCarrito from "./totalCarrito.js";
+import printCarrito from "./printCarrito";
+import storage from "./storage";
+import totalCarrito from "./totalCarrito";
 
 export function buttonProduct(node, product, amount) {
   node.querySelector(".buy").addEventListener("click", () => {
