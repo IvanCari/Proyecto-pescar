@@ -615,6 +615,16 @@ footer {
 /*****************FIN BOTON SCROLL**************************/
 
 /******************CONTACTO***********************/
+
+.contacto h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 2.8em;
+  font-weight: 800;
+  color: var(--green-dark);
+  filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
+}
 #contact {
   display: flex;
   justify-content: center;
