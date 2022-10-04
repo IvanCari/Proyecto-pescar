@@ -1,9 +1,9 @@
-import { countProduct } from "./countProduct.js";
-import { buttonProduct } from "./buttonProduct.js";
-import { productos } from "./productos.js";
-import formatAmount from "./formatAmount.js";
-import printCarrito from "./printCarrito.js";
-import totalCarrito from "./totalCarrito.js";
+import { countProduct } from "./countProduct";
+import { buttonProduct } from "./buttonProduct";
+import { productos } from "./productos";
+import formatAmount from "./formatAmount";
+import printCarrito from "./printCarrito";
+import totalCarrito from "./totalCarrito";
 
 // window.carrito es un array de todos los productos que añadimos al carrito y
 // window.carritosIDs nos sirve para verificar si ya existe un producto o no
