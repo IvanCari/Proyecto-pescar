@@ -1,6 +1,6 @@
-import formatAmount from "./formatAmount";
-import storage from "./storage";
-import totalCarrito from "./totalCarrito";
+import formatAmount from "./formatAmount.js";
+import storage from "./storage.js";
+import totalCarrito from "./totalCarrito.js";
 
 export default function printCarrito() {
   const productCarrito = document.getElementById("productos-carrito");
