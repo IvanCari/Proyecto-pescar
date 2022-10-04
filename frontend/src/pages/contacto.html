@@ -56,32 +56,49 @@
 
 
     <main>
-         <!------------------------------------------------Seccion "Sobre Nosotros"----------------------------------->
-         <section id="sobre-nosotros">
-          <div class="titulo-sobre-nosotros">
-              <p>SOBRE NOSOTROS</p>
-          </div>
-          <div class="contendor-sobre-nosotros">
-              <div class="contenedor-texto">
-                  <p class="texto-nosotros">En Santuario Animal hace más de 30 años nos dedicamos a <span
-                          class="texto-rosita">rescatar, rehabilitar y reubicar</span> a todos los animales que
-                      podamos que necesiten nuestra ayuda.</p>
-                  <div class="contenedor-img-perro-mov"><img class="img-perro-movil"
-                          src="/frontend/src/assets/fotos/perroperro.svg" alt="Perro"></div>
-                  <p class="texto-nosotros">Ofrecemos <span class="texto-rosita">seguridad y cuidado hasta que podamos
-                          encontrar nuevas familias</span> que los amen, o pueden vivir sus vidas con nosotros en
-                      nuestra aldea de jubilados si eso es lo que les conviene.</p>
-                  <p class="texto-nosotros"><span class="texto-negrita">Hasta que llegue ese día estaremos aquí,
-                          sirviendo a los animales y personas de nuestra comunidad.</span></p>
-              </div>
-              <div class="contenedor-img">
-                  <img class="img-perro" src="/frontend/src/assets/fotos/perroperro.svg" alt="Perro">
-              </div>
-          </div>
-      </section>
-      <!---------------------------------------------Fin Seccion "Sobre Nosotros"----------------------------------->
 
 
+
+
+      <!--Seccion "INICIO CONTACTO" -->
+      <section id="contact">
+        <div class="contact-box">
+            <div class="contact-links">
+                <h2 class="contact-h2">Contacto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt culpa est, necessitatibus
+                    exercitationem eius quaerat itaque, repellat, perferendis dolore laudantium. Commodi ipsam
+                    temporibus autem?</p>
+                <div class="ifrma">
+                    <iframe title="Maps google iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26269.098736595475!2d-58.42251275081016!3d-34.61333092670571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca688994eb61%3A0xd055df0a7dafa86e!2sParque%20Centenario!5e0!3m2!1ses-419!2sar!4v1664320117277!5m2!1ses-419!2sar"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form>
+                    <div class="form-item">
+                        <input type="text" name="sender" id="nombre" required>
+                        <label for="nombre">Nombre:</label>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" name="email" id="email" required>
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" name="asunto" id="asunto" required>
+                        <label for="asunto">Asunto:</label>
+                    </div>
+                    <div class="form-item">
+                        <textarea class="" name="message" id="mensaje" required></textarea>
+                        <label for="mensaje">Mensaje:</label>
+                    </div>
+                    <button class="submit-btn">Enviar </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Seccion "Fin CONTACTO" -->
 
     </main>
 
@@ -126,7 +143,7 @@
         <ul class="contenedor_lista">
             <li class="lista"><a href="/frontend/src/pages/sobrenosotros.html" class="item"> Sobre Nosotros</a></li>
             <li class="lista"><a href="/frontend/src/pages/adopciones.html" class="item"> Adopciones</a></li>
-            <li class="lista"><a href="" class="item">Cómo colaborar</a></li>
+            <li class="lista"><a href="/frontend/src/pages/comocolaborar.html" class="item">Cómo colaborar</a></li>
             <li class="lista"><a href="/frontend/src/pages/tienda.html" class="item"> Tienda</a></li>
             <li class="lista"><a href="/frontend/src/pages/contacto.html" class="item"> Contacto</a></li>
         </ul>
@@ -146,6 +163,5 @@
 
 </body>
 <script src="/frontend/src/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
 <script src="/frontend/src/js/scrollButton.js"></script>
 </html>
