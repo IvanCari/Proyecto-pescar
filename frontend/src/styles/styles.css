@@ -272,6 +272,29 @@ filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
 /*-----------------------------------------Fin Seccion PERRITO------------------------------------------------ */
 
 /*---------------------------------------------Seccion "Donación"--------------------------------------------- */
+.fondo-donacion {
+  background-color: #FFD87EFF;
+  
+  background-repeat: repeat-y;
+  
+  background-position: center;
+  padding: 40px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  background:
+  radial-gradient(
+    circle at 94% 72%, #ffd87eff 0 10%, transparent 40.2%
+  ), 
+  radial-gradient(
+    circle at 0% max(78%, 350px), #7dc989 0 20%, transparent 40.2%
+  ), 
+  radial-gradient(
+    circle at 0% 0%, #eba8a0 0 20%, transparent 40.2%
+  ), 
+  #F18B7E ;
+  border-radius: 10px 0 0 10px;
+  }
+  
+
 .contenedor-donacion {
   margin: 0;
   padding: 5px 20px 0 20px;
