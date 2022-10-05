@@ -671,6 +671,7 @@ footer {
 }
 .contact-h2{
   filter: drop-shadow(2px 2px 3px #0003);
+  font-size: 1em;
 }
 
 .contact-form-wrapper {
@@ -912,5 +913,9 @@ background-color:var(--coral)
   color: var(--green-dark);
   filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
 }
-
+.texto-adoociones {
+  font-size: 1.5em;
+  font-family: Hind Madurai;
+  margin-top: 35px;
+}
 /**************************** fin tienda *******************************/
